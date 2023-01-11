@@ -1,0 +1,21 @@
+{
+    "editor.formatOnPaste": true, // 控制编辑器是否自动格式化粘贴的内容。格式化程序必须可用，并且能针对文档中的某一范围进行格式化。
+    "editor.formatOnSave": true, // 在保存时格式化文件。格式化程序必须可用，延迟后文件不能保存，并且编辑器不能关闭。
+    "editor.formatOnType": true, // 控制编辑器在键入一行后是否自动格式化该行。
+    "editor.minimap.enabled": false, // 控制是否显示缩略图。
+    "editor.wordWrap": "on", // 控制折行的方式。
+    "terminal.integrated.allowChords": false, // 是否允许终端中的组合键绑定。请注意，如果此值为 true，并且击键导致一个组合，则它将绕过 #terminal.integrated.commandsToSkipShell#，当你希望 ctrl+k 转到 shell (而不是 VS Code)时，将此设置为 false 特别有用。
+    "terminal.integrated.enableMultiLinePasteWarning": false, // 将多行粘贴到终端时显示警告对话框。在以下情况中，该对话框不显示：已启用带括号的粘贴模式(shell 支持本机多行粘贴)，粘贴由 shell 的读取一行数据处理(在 pwsh 的情况下)
+    "explorer.confirmDelete": false, // 控制资源管理器是否应在通过回收站删除文件时要求确认。
+    "explorer.confirmDragAndDrop": false, // 控制资源管理器是否应在通过拖放移动文件或文件夹时要求确认。
+    "window.autoDetectColorScheme": true, // 如果已设置，则根据 OS 外观自动切换到首选颜色主题。
+    "debug.onTaskErrors": "showErrors", // 控制在运行预启动任务后遇到错误时应该怎么做。
+    "files.autoSave": "afterDelay", // 控制具有未保存更改的编辑器的 自动保存。
+    "workbench.iconTheme": "vscode-icons", // 指定工作台中使用的文件图标主题。
+    "tabnine.experimentalAutoImports": true, // 实验：应用 Tabnine 建议后启用模块自动导入
+    "tabnine.receiveBetaChannelUpdates": true, // 接收 Tabnine VSCode 扩展测试版更新
+    "code-runner.clearPreviousOutput": false, // 是否在每次运行前清除以前的输出。
+    "code-runner.preserveFocus": true, // 是否在触发代码运行后保留对代码编辑器的焦点。
+    "code-runner.runInTerminal": true, // 是否在集成终端中运行代码。
+    "code-runner.saveFileBeforeRun": true // 是否在运行前保存当前文件。
+}
